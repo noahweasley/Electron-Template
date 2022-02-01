@@ -3,7 +3,7 @@
   "productName": "Miniee",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "app/background/main.js",
   "scripts": {
     "start": "electron .",
     "debug": "electron . --trace-warnings",
