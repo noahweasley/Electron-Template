@@ -26,7 +26,7 @@
   "author": "Noahweasley",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^15.3.1",
+    "electron": "^15.3.6",
     "electron-packager": "^15.4.0",
     "electron-winstaller": "^5.0.0"
   }
