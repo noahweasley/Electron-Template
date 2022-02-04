@@ -1,3 +1,20 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+:root {
+  color: white;
+}
+
+.toolbar {
+  background-color: black;
+  border: none;
+}
+
+.toolbar-header {
+  height: 30px;
+}
+
+.toolbar .title {
+  font-size: 14px;
+  line-height: 30px;
+}

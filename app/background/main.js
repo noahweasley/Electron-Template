@@ -5,6 +5,9 @@ const path = require("path");
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    show: false,
+    frame: false,
+    backgroundColor: "#1c1c1c",
     width: 800,
     height: 600,
     webPreferences: {
@@ -12,6 +15,8 @@ function createWindow() {
     }
   });
 
+  // don't show the window until it is ready-to-show
+  mainWindow.on("ready-to-show", mainWindow.show);
   // and load the index.html of the app.
   mainWindow.loadFile("app/pages/index.html");
   // Open the DevTools.

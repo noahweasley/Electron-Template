@@ -5,11 +5,20 @@
     <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'" />
-    <link href="../styles/styles.css" rel="stylesheet" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miniee</title>
+    <link rel="stylesheet" type="text/css" href="../styles/photon.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
 </head>
 
 <body>
+
+    <header class="toolbar toolbar-header draggable">
+        <h1 class="title draggable">Miniee</h1>
+        <!-- <img class="draggable" src="../resources/images/app_icon.png" alt="App icon"> -->
+    </header>
+
     <h1>Hello World!</h1>
     We are using Node.js <span id="node-version"></span>, Chromium <span id="chrome-version"></span>, and Electron
     <span id="electron-version"></span>.
